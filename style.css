@@ -104,6 +104,10 @@ p{
     margin-top: 10px;
 }
 
+footer .footer a{
+    text-decoration: none;
+}
+
 /* media query */
 @media screen and (max-width: 768px){
     header > nav > ul.liste{
@@ -125,4 +129,3 @@ p{
         flex-direction: column;
         display: flex;
     }
-}
