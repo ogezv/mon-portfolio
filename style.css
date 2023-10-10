@@ -71,7 +71,7 @@ header {
 
 /* appel par id */
 #container{
-    /* display: grid; */
+    display: grid;
     min-height: 100vh;
     /* grid-template-rows: 1fr 8fr 1fr; */
 }
@@ -141,4 +141,11 @@ footer .footer a{
         justify-content: space-around;
         flex-direction: column;
         display: flex;
+    }
+
+    #a-propos{
+        justify-content: center;
+    }
+    #a-propos > presentation:nth-child(1){
+        
     }
