@@ -59,21 +59,21 @@ header, main, footer{
     border-color: rgba(51, 153, 255, 0.8); */
     /* 0.8= opacité */
     padding: 5px;
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(204, 204, 204);
 }
 
 header {
     position: fixed;
     width: 100%;
     height: 5vh;
-    background-color: rgb(51, 153, 153);
+    background-color: rgb(153, 153, 153);
 }
 
 /* appel par id */
 #container{
     display: grid;
     min-height: 100vh;
-    grid-template-rows: 1fr 8fr 1fr;
+    /* grid-template-rows: 1fr 8fr 1fr; */
 }
 
 /* appel par balise */
@@ -86,9 +86,15 @@ header > nav{
 
 /* appel par class */
 header > nav > ul.liste{
-    flex-grow: 1;
+    /* flex-grow: 1; */
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-between;  */
+
+}
+
+.liens{
+    text-decoration: none;
+    padding: 2.2rem 2rem;
 }
 
 header > nav > i.fa-bars{
@@ -96,7 +102,7 @@ header > nav > i.fa-bars{
 }
 
 section{
-    height: 400px;
+    height: 300px;
     padding-top: 7vh;
 }
 
@@ -104,8 +110,15 @@ p{
     margin-top: 10px;
 }
 
+footer{
+    background-color: rgb(51, 153, 153);
+    margin-top: auto;
+}
+
 footer .footer a{
     text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 10px;
 }
 
 /* media query */
@@ -128,4 +141,11 @@ footer .footer a{
         justify-content: space-around;
         flex-direction: column;
         display: flex;
+    }
+
+    #a-propos{
+        justify-content: center;
+    }
+    #a-propos > presentation:nth-child(1){
+        
     }
