@@ -1,148 +1,160 @@
-
-
-*,
-*::before,
-*::after {
+* {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
-	
+html{
+  scroll-behavior: smooth;
+}
 
-body{margin:0;font-family:system-ui}	
+#container{
+  font-family: sans-serif;
+  font-family:'Source Sans Pro',sans-serif;;
+}
 
-header{
-    position: fixed;
-    width: 100%;
+header {
+  position: fixed;
+  width: 100%;
+}
+
+#home{
+  background: lightgray;
+  font-size: 4vh;
+
 }
 
 nav {
-	
-padding: 40px;	
-background: #1156eb;
-display:flex;
-justify-content: space-between;
-align-items:center;
-
-}	
-	
-	
-nav input {
-
-display: grid;
-width: 40px;
-aspect-ratio: 1;
-overflow: hidden;
--webkit-appearance: none;
-appearance: none;
-cursor: pointer;
-	
+  padding: 40px;
+  background: #3366FF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-	
+
+/* nav input {
+  display: grid;
+  width: 40px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
 nav input::before,
 nav input::after {
-	
-content: "";
-grid-area: 1/1;
-transition: .3s;
-z-index:1;
-	
+  content: "";
+  grid-area: 1/1;
+  transition: 0.3s;
+  z-index: 1;
 }
-	
+
 nav input::before {
+  background: radial-gradient(closest-side at 12.5% 25%, #fff 96%, #0000) 0 0/80%
+      40%,
+    linear-gradient(#fff 50%, #0000 0) top/80% 40% repeat-y;
+}
 
-background:
-radial-gradient(closest-side at 12.5% 25%,#fff 96%,#0000) 0 0/80% 40%,
-linear-gradient(#fff 50%,#0000 0) top/80% 40% repeat-y;
-	
-	}
-	
 nav input::after {
-	
-padding: 10%;
-background: radial-gradient(closest-side at 50% 12.5%,#fff 96%,#0000) top /20% 80% repeat-y,
-radial-gradient(closest-side at 12.5% 50%,#fff 96%,#0000) left/80% 20% repeat-x,
-conic-gradient(from 90deg at 33% 33%, #0000 90deg, #fff 0)
-100% 100%/60% 60% padding-box content-box;
-transform: rotate(45deg);
-opacity:0;
-	
-}	
-	
+  padding: 10%;
+  background: radial-gradient(closest-side at 50% 12.5%, #fff 96%, #0000) top /
+      20% 80% repeat-y,
+    radial-gradient(closest-side at 12.5% 50%, #fff 96%, #0000) left/80% 20%
+      repeat-x,
+    conic-gradient(from 90deg at 33% 33%, #0000 90deg, #fff 0) 100% 100%/60% 60%
+      padding-box content-box;
+  transform: rotate(45deg);
+  opacity: 0;
+}
+
 nav input:checked::before {
-	
   transform: translate(100%);
-  opacity:0;
+  opacity: 0;
 }
-	
+
 nav input:checked::after {
-  
-  opacity:1;
+  opacity: 1;
 }
-	
-	
-	
-  
+
 ul {
-    	
-margin: 0;
-padding: 0;
-list-style-type: none;
-position: fixed;
-background: inherit;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;/*inset: 0*/
-display: flex;
-flex-flow: column;
-align-items: center;
-justify-content: center;
-row-gap: 30px;
-transform: translate(-100%);
-will-change: transform,opacity;
-opacity: 0;
-transition: .3s;
-	
-  }
-	
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: fixed;
+  background: inherit;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+  transform: translate(-100%);
+  will-change: transform, opacity;
+  opacity: 0;
+  transition: 0.3s;
+}
+
 nav ul li a {
-	
-padding: 10px 20px;
-color: #fff;
-text-decoration: none;
-font-size: 1.25rem;
-
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
 }
-  
+
 nav input:checked + ul {
-
-transform: unset;
-opacity: 1;
-	
-  }
-		
-
-@media (min-width:768px) {
-	
-nav input{
-	
-display:none
-	
-	}
-	
-ul{
-	
-opacity: 1;
-transform: unset;
-gap: unset;
-position: initial;
-flex-flow: initial;
-margin-left: auto;
-  
+  transform: unset;
+  opacity: 1;
 }
 
-}	
+@media (min-width: 768px) {
+  nav input {
+    display: none;
+  }
 
-section{
-    height: 500px;
-    padding-top: 12vh;
+  ul {
+    opacity: 1;
+    transform: unset;
+    gap: unset;
+    position: initial;
+    flex-flow: initial;
+    margin-left: auto;
+  }
+} */
+
+section {
+  min-height: 100vh;
+  padding-top: 16vh;
+}
+
+#logo{
+  display: flex;
+  align-items: center;
+}
+
+header .logo_balise {
+  height: 50px;
+  margin-right: 0.5rem;
+}
+
+#home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer {
+  height: 100px;
+  background: lightgrey;
+}
+
+footer .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 1rem;
 }
