@@ -14,7 +14,7 @@
     <div id="container">
         <!-- le header qui contient notre entête de site (logo, nav etc..) -->
         <header class="navbar">
-            <nav>
+            <nav id="nav">
                 <!-- id = unique (1 seul par page) -->
                 <div id="logo"><img src="balise.png" alt="logo balise" class="logo_balise">
                     <span class="header_nom"> Victor Ogez</span>
@@ -35,17 +35,22 @@
                         <a class="liens" href="#contact">Contact</a>
                     </li>
                 </ul>
+                <div id="icons"></div>
             </nav>
         </header>
         <!-- contenu principal changeant a chaque page -->
         <main>
             <section id="home">
-               <h1> Bonjour, Je m'appelle Victor Ogez </h1>
-               <p class="intro">et je suis en formation développeur web et web mobile</p>
+                <h1> Bonjour, Je m'appelle Victor Ogez </h1>
+                <p class="intro">et je suis en formation développeur web et web mobile</p>
             </section>
             <section id="a-propos">
                 <h2>À propos</h2>
-                <p>Bonjour, Je m'appelle Victor Ogez et je suis en formation développeur web et web mobile</p>
+                <p>Je suis actuellement en formation développeur web et web mobile</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit odio vel tempus sagittis. Duis venenatis scelerisque gravida. Donec fermentum imperdiet egestas. Nullam congue faucibus dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus cursus turpis ante, at accumsan urna malesuada eu. Nam blandit arcu at dolor ultricies, a accumsan risus pretium. Phasellus molestie mattis sem, in tempus diam eleifend sit amet.
+
+                    Praesent ornare eros in libero laoreet scelerisque. Donec imperdiet nisi eget ipsum iaculis dapibus. In vel sapien hendrerit, ornare nulla et, pretium mi. Aliquam erat volutpat. Integer eleifend odio ut ligula blandit ornare. Vestibulum ut pretium ipsum, nec feugiat enim. Praesent id risus mi.</p>
             </section>
             <section id="experiences">
                 <h2>Expériences</h2>
