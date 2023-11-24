@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <script src="main.js" defer></script>
+    <script src="/main.js" defer></script>
     <title>Mon Portfolio</title>
 </head>
 
@@ -17,7 +17,7 @@
             <nav id="nav">
                 <!-- id = unique (1 seul par page) -->
                 <div id="logo"><img src="balise.png" alt="logo balise" class="logo_balise">
-                    <span class="header_nom"> Victor Ogez</span>
+                    <span class="header_nom liens"> Victor Ogez</span>
                 </div>
                 <!-- <input type="checkbox" role="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"> -->
 
