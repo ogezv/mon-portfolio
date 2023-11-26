@@ -23,7 +23,7 @@
 
                 <ul class="menu">
                     <li>
-                        <a class="liens" href="./">Accueil</a>
+                        <a class="liens" href="#home">Accueil</a>
                     </li>
                     <li>
                         <a class="liens" href="#a-propos">À propos</a>
@@ -46,23 +46,36 @@
             </section>
             <section id="a-propos">
                 <h2>À propos</h2>
-                <p>Je suis actuellement en formation développeur web et web mobile</p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit odio vel tempus sagittis. Duis venenatis scelerisque gravida. Donec fermentum imperdiet egestas. Nullam congue faucibus dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus cursus turpis ante, at accumsan urna malesuada eu. Nam blandit arcu at dolor ultricies, a accumsan risus pretium. Phasellus molestie mattis sem, in tempus diam eleifend sit amet.
+                <div class="apropos_content">
+                    <div class="apropos_details">
+                        <h3>Présentation</h3>
+                        <div class="apropos_details_content">
+                            <p>Je suis actuellement en formation développeur web et web mobile.</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit odio vel tempus sagittis. Duis venenatis scelerisque gravida. Donec fermentum imperdiet egestas. Nullam congue faucibus dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus cursus turpis ante, at accumsan urna malesuada eu. Nam blandit arcu at dolor ultricies, a accumsan risus pretium. Phasellus molestie mattis sem, in tempus diam eleifend sit amet.
 
-                    Praesent ornare eros in libero laoreet scelerisque. Donec imperdiet nisi eget ipsum iaculis dapibus. In vel sapien hendrerit, ornare nulla et, pretium mi. Aliquam erat volutpat. Integer eleifend odio ut ligula blandit ornare. Vestibulum ut pretium ipsum, nec feugiat enim. Praesent id risus mi.</p>
+                                Praesent ornare eros in libero laoreet scelerisque. Donec imperdiet nisi eget ipsum iaculis dapibus. In vel sapien hendrerit, ornare nulla et, pretium mi. Aliquam erat volutpat. Integer eleifend odio ut ligula blandit ornare. Vestibulum ut pretium ipsum, nec feugiat enim. Praesent id risus mi.</p>
+                        </div>
+                    </div>
+                    <div class="apropos_skills">
+                        <h3>Compétences</h3>
+                        <div class="skills">
+                            <div class="skill">HTML</div>
+                            <div class="skill">CSS</div>
+                            <div class="skill">JavaScript</div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section id="experiences">
                 <h2>Expériences</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim sem libero, vel vestibulum nulla tincidunt nec. Aliquam risus tellus, finibus convallis sollicitudin eu, facilisis in sem. Aliquam erat volutpat. Donec nec lectus nec massa bibendum sodales et ut libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris cursus metus ut ipsum efficitur, at tincidunt ligula maximus. Curabitur vel dapibus lectus, convallis suscipit arcu. Fusce congue elementum felis nec lobortis. Aenean ac felis vulputate purus mollis tempus.
+                <div class="experiences_content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et nibh nec nunc pretium blandit eu eget elit. Praesent elementum commodo mi, vitae sagittis lectus bibendum nec. Nulla aliquam imperdiet augue at cursus. Proin metus lorem, imperdiet quis leo et, ultrices cursus quam. Morbi sit amet mollis felis. Phasellus euismod quam enim, non lobortis nisl ornare vitae. Fusce sodales ante egestas odio ultricies facilisis. Donec eros nulla, maximus at molestie non, cursus eget libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis tempor volutpat ex sit amet faucibus.
 
-                    In convallis consequat facilisis. Phasellus eu congue velit, non tempus est. Fusce tristique fermentum libero nec vulputate. Maecenas ornare faucibus tincidunt. Nunc aliquet rutrum vestibulum. Nunc pretium nunc quam, nec pharetra odio malesuada id. Proin eu magna ornare, varius dui ac, hendrerit metus. Praesent at augue a dui lobortis viverra. Etiam porttitor molestie nisi, et imperdiet dolor rhoncus a. In ut orci sapien. Ut sed sodales nunc, eu tincidunt augue. Quisque malesuada magna at nunc dictum lobortis. Fusce auctor varius enim, vel ullamcorper est scelerisque at. Integer nisl mi, consequat sit amet nulla in, scelerisque mattis neque.
-
-                    Phasellus sed ex a mi porttitor feugiat. Etiam ultrices ac dui et malesuada. Nunc non imperdiet orci, facilisis rutrum ipsum. Integer maximus gravida feugiat. Maecenas sit amet molestie libero. Aenean vel erat magna. Nulla euismod porttitor elit, id facilisis erat lobortis id. Duis a ornare risus, eget pharetra augue. Mauris laoreet mauris eget urna consectetur vehicula. Morbi nunc odio, dignissim blandit purus non, commodo maximus leo.
-
-                    In non sem ullamcorper, egestas odio a, malesuada metus. Donec vel magna euismod, euismod ex a, rutrum enim. Duis pulvinar venenatis ex id eleifend. In sed egestas felis. Quisque bibendum tempor orci at ultrices. Sed urna augue, mollis non lacus eget, sodales semper dolor. Vivamus elementum sem quis tellus aliquet dapibus.
-                </p>
+                        Nam ut justo urna. Praesent sagittis erat sed laoreet feugiat. Quisque ac aliquam eros, ac eleifend diam. Nunc fringilla posuere justo sit amet rutrum. Cras rhoncus venenatis hendrerit. Suspendisse eleifend in arcu in ullamcorper. Sed at turpis at nisi vehicula finibus vitae non dolor. In rutrum sapien non vulputate imperdiet. Fusce efficitur tellus a magna porttitor, non efficitur felis facilisis. Pellentesque ac ante purus. Etiam vel vestibulum est. Praesent suscipit, leo at vehicula facilisis, lacus lorem interdum nunc, quis accumsan purus ipsum at mauris. Nam ut rhoncus nulla, non scelerisque justo. Donec elit nunc, gravida in dolor vel, pretium euismod erat. Proin sed egestas erat, sed malesuada ipsum. Donec nec tortor nec nibh laoreet porttitor.
+                    </p>
+                </div>
             </section>
             <section id="contact">
                 <h2>Contact</h2>
