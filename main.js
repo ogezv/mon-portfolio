@@ -6,12 +6,6 @@
 // appHeight();
 
 const links = document.querySelectorAll("nav li");
-let footer = document.querySelector("footer");
-
-// console.log(window.location.hash);
-// if ((window.location.hash = "#contact")) {
-//   footer.classList.toggle("fixed");
-// }
 
 icons.addEventListener("click", () => {
   nav.classList.toggle("active");
