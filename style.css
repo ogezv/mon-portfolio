@@ -95,8 +95,10 @@ header .logo_balise {
 
 section {
   min-height: 100vh;
-  /* min-height: calc(var(--vh,1vh)*100); */
   padding-top: 14vh;
+}
+section#contact {
+  min-height: 90vh;
 }
 
 #home {
@@ -170,10 +172,4 @@ footer .footer {
   align-items: center;
   height: 100%;
   gap: 1rem;
-}
-
-footer.fixed {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }

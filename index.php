@@ -15,12 +15,9 @@
         <!-- le header qui contient notre entête de site (logo, nav etc..) -->
         <header class="navbar">
             <nav id="nav">
-                <!-- id = unique (1 seul par page) -->
                 <div id="logo"><img src="balise.png" alt="logo balise" class="logo_balise">
                     <span class="header_nom liens"> Victor Ogez</span>
                 </div>
-                <!-- <input type="checkbox" role="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"> -->
-
                 <ul class="menu">
                     <li>
                         <a class="liens" href="#home">Accueil</a>
@@ -54,7 +51,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit odio vel tempus sagittis. Duis venenatis scelerisque gravida. Donec fermentum imperdiet egestas. Nullam congue faucibus dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus cursus turpis ante, at accumsan urna malesuada eu. Nam blandit arcu at dolor ultricies, a accumsan risus pretium. Phasellus molestie mattis sem, in tempus diam eleifend sit amet.
 
-                                Praesent ornare eros in libero laoreet scelerisque. Donec imperdiet nisi eget ipsum iaculis dapibus. In vel sapien hendrerit, ornare nulla et, pretium mi. Aliquam erat volutpat. Integer eleifend odio ut ligula blandit ornare. Vestibulum ut pretium ipsum, nec feugiat enim. Praesent id risus mi.</p>
+                                Praesent ornare eros in libero laoreet scelerisque. Donec imperdiet nisi eget ipsum iaculis dapibus. In vel sapien hendrerit, ornare nulla et, pretium mi. Aliquam erat volutpat. Integer eleifend odio ut ligula blandit ornare. Vestibulum ut pretium ipsum, nec feugiat enim.</p>
                         </div>
                     </div>
                     <div class="apropos_skills">
