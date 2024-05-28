@@ -67,11 +67,17 @@
             <section id="experiences">
                 <h2>Expériences</h2>
                 <div class="experiences_content">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et nibh nec nunc pretium blandit eu eget elit. Praesent elementum commodo mi, vitae sagittis lectus bibendum nec. Nulla aliquam imperdiet augue at cursus. Proin metus lorem, imperdiet quis leo et, ultrices cursus quam. Morbi sit amet mollis felis. Phasellus euismod quam enim, non lobortis nisl ornare vitae. Fusce sodales ante egestas odio ultricies facilisis. Donec eros nulla, maximus at molestie non, cursus eget libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis tempor volutpat ex sit amet faucibus.
 
-                        Nam ut justo urna. Praesent sagittis erat sed laoreet feugiat. Quisque ac aliquam eros, ac eleifend diam. Nunc fringilla posuere justo sit amet rutrum. Cras rhoncus venenatis hendrerit. Suspendisse eleifend in arcu in ullamcorper. Sed at turpis at nisi vehicula finibus vitae non dolor. In rutrum sapien non vulputate imperdiet. Fusce efficitur tellus a magna porttitor, non efficitur felis facilisis. Pellentesque ac ante purus. Etiam vel vestibulum est. Praesent suscipit, leo at vehicula facilisis, lacus lorem interdum nunc, quis accumsan purus ipsum at mauris. Nam ut rhoncus nulla, non scelerisque justo. Donec elit nunc, gravida in dolor vel, pretium euismod erat. Proin sed egestas erat, sed malesuada ipsum. Donec nec tortor nec nibh laoreet porttitor.
-                    </p>
+                    <div class="slider">
+                        <div class="slides">
+                            <img class="slide" src="pic\iu-6th-mini-album-the-winning-balmae-annae-1-8c03afe6-cbbf-4641-a853-5dbdee9139ab.webp" alt="IU 6th mini album Love wins all">
+                            <img class="slide" src="pic\lilac-334fb40a-34e5-4a65-906f-64614ca5f3f1.webp" alt="IU Lilac">
+                            <img class="slide" src="pic\love-poem-871cb32e-fb14-463a-bd8a-84820d7f78c9.webp" alt="IU Love poem">
+                        </div>
+                        <button id="prev" class="prev">&#10094</button>
+                        <button id="next" class="next">&#10095</button>
+                    </div>
+
                 </div>
             </section>
             <section id="contact">

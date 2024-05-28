@@ -32,6 +32,7 @@ a:hover {
   color: white;
 }
 nav {
+  z-index: 1;
   background: #3366ff;
   display: flex;
   justify-content: space-between;
@@ -157,8 +158,50 @@ p {
   color: #666;
 }
 .experiences_content{
-  line-height: 1.7;
-  font-size: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+.slider{
+  position: relative;
+  width: 100%;
+  margin : auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.slider img{
+  z-index: -1;
+  width: 60%;
+  display: none;
+}
+
+.slides {
+  display: flex;
+  justify-content: center;
+}
+
+img.displaySlide{
+  z-index: -1;
+  display: block;
+}
+
+.slider button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  padding: 10px 15px;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.prev{
+  left: 20%;
+}
+.next{
+  right: 20%;
 }
 
 footer {
